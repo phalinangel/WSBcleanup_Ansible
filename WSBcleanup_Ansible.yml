@@ -1,5 +1,5 @@
 ---
 - name: WSBcleanup
   hosts: cerberus.cerberusnet.net
-    ansible.windows.win_command
+    ansible.windows.win_command: 
       cmd: 'wbadmin delete backup -keepVersions:30'
