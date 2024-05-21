@@ -1,3 +1,4 @@
+---
 - name: WSBcleanup
   hosts: cerberus
   ansible.windows.win_command:
